@@ -1,0 +1,51 @@
+@font-face{
+    font-family:myfont;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+ * {
+    box-sizing: border-box;
+}
+
+.card{
+    background-color:white;
+    display: flex;
+    justify-content: start;
+    align-items: center;   
+    max-width: 900px;
+    max-height: 700px;
+    border-radius: 3%;
+    padding-right: 15px;
+    padding-left: 25px;
+    
+}
+
+body{
+    background-color: rgb(24, 32, 34);
+   
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    border: 20px;
+    border: 200px;
+ 
+
+}
+
+
+button{
+    color: rgb(246, 245, 250);
+    background-color:  hsl(4, 100%, 67%);
+    border-spacing: 30px;
+    border-radius: 10px;
+    background-size: cover;
+    width: 250px;
+    height: 40px;
+}
+.main img{
+  
+border-radius: 50%;
+   
+}
+
+
+
